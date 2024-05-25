@@ -1,0 +1,97 @@
+2024-05-13 01:10:48 PM	Script running: Extract_and_load.py
+2024-05-13 01:10:48 PM	extract_date parameter: It will be calculated internally
+2024-05-13 01:10:48 PM	compress_aud_month parameter: It will be calculated internally
+2024-05-13 01:10:48 PM	compress_db_aud_month parameter: It will be calculated internally
+2024-05-13 01:10:48 PM	======================Chesksum script files==========================
+2024-05-13 01:10:48 PM	1: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/config.properties - 78d00035939cce1a865566fc222e5568
+2024-05-13 01:10:48 PM	2: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Extract_and_load.py - bd5681293503bbb33c40129675c4956b
+2024-05-13 01:10:48 PM	3: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Extractor.py - 50406e9edbe7bec6c1ea43b73b243fb5
+2024-05-13 01:10:48 PM	4: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Loader_by_db.py - 191b579e47867d78e1c489ff01ad8d3a
+2024-05-13 01:10:48 PM	5: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Activity_report_generator.py - 8c751ad3789c584e166abafe73a3097f
+2024-05-13 01:10:48 PM	6: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Compress_aud_files.py - 94de29509ebb166af3290961a698311b
+2024-05-13 01:10:48 PM	7: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Compress_db_aud_files.py - e3e1a7417afd8508d738be73af3222bc
+2024-05-13 01:10:48 PM	8: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Util_string.py - 653d6089edf7affd6ef726bb889c343d
+2024-05-13 01:10:48 PM	9: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Util_files.py - e1076b63cbf8ba719940e36a30c7e317
+2024-05-13 01:10:48 PM	=====================================================================
+2024-05-13 01:10:48 PM	Script running: Extractor.py
+2024-05-13 01:10:48 PM	Day parameter: It will be calculated internally
+2024-05-13 01:10:48 PM	=========================Start extraction============================
+2024-05-13 01:10:48 PM	Extraction day: 20240511 (Calculated internally)
+2024-05-13 01:10:48 PM	Start copying files from server 172.28.10.88, directory /home/mobarmy/auditlogs to local directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240511
+2024-05-13 01:10:48 PM	Connected (version 2.0, client OpenSSH_7.4)
+2024-05-13 01:10:49 PM	Authentication (password) successful!
+2024-05-13 01:10:49 PM	Connected (version 2.0, client OpenSSH_7.4)
+2024-05-13 01:10:49 PM	Authentication (password) successful!
+2024-05-13 01:10:50 PM	[chan 0] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 0] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory billdb-1-1-m-0: 0
+2024-05-13 01:10:50 PM	[chan 1] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 1] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory billdb-1-1-m-1: 0
+2024-05-13 01:10:50 PM	[chan 2] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 2] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory billsharedb-1-1-m-0: 0
+2024-05-13 01:10:50 PM	[chan 3] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 3] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory billsharedb-1-1-m-1: 0
+2024-05-13 01:10:50 PM	[chan 4] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 4] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory bmpdb-1-1-m-0: 0
+2024-05-13 01:10:50 PM	[chan 5] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 5] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory bmpdb-1-1-m-1: 0
+2024-05-13 01:10:50 PM	[chan 6] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 6] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory edrdb-1-1-m-0: 0
+2024-05-13 01:10:50 PM	[chan 7] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 7] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory edrdb-1-1-m-1: 0
+2024-05-13 01:10:50 PM	[chan 8] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 8] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory meddb-1-1-m-0: 0
+2024-05-13 01:10:50 PM	[chan 9] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 9] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory meddb-1-1-m-1: 0
+2024-05-13 01:10:50 PM	[chan 10] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 10] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory usrdb-1-1-m-0: 0
+2024-05-13 01:10:50 PM	[chan 11] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 11] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory usrdb-1-1-m-1: 0
+2024-05-13 01:10:50 PM	[chan 12] Opened sftp connection (server version 3)
+2024-05-13 01:10:50 PM	[chan 12] sftp session closed.
+2024-05-13 01:10:50 PM	File quantity in source directory uvcdb-1-1-m-0: 0
+2024-05-13 01:10:51 PM	[chan 13] Opened sftp connection (server version 3)
+2024-05-13 01:10:51 PM	[chan 13] sftp session closed.
+2024-05-13 01:10:51 PM	File quantity in source directory uvcdb-1-1-m-1: 0
+2024-05-13 01:10:51 PM	Total files copied: 0
+2024-05-13 01:10:51 PM	Start calculating checksum files from d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS
+2024-05-13 01:10:52 PM	Total checksum files calculated: 0
+2024-05-13 01:10:52 PM	=====================================================================
+2024-05-13 01:10:52 PM	Script running: Loader_by_db.py
+2024-05-13 01:10:52 PM	Day parameter: It will be calculated internally
+2024-05-13 01:10:52 PM	==========================Organize by DB=============================
+2024-05-13 01:10:52 PM	Day: 20240511 (Calculated internally) 
+2024-05-13 01:10:52 PM	Source directory: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240511
+2024-05-13 01:10:52 PM	Destiny directory: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed
+2024-05-13 01:10:52 PM	Start organizing AUD files by Database
+2024-05-13 01:10:52 PM	Total files organized: 0
+2024-05-13 01:10:52 PM	=====================================================================
+2024-05-13 01:10:52 PM	Script running: Compress_aud_files.py
+2024-05-13 01:10:52 PM	Month parameter: It will be calculated internally
+2024-05-13 01:10:52 PM	======================Compress AUD files ============================
+2024-05-13 01:10:52 PM	Compress files by month: 202403 (Calculated internally)
+2024-05-13 01:10:52 PM	Start compressing files from directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS
+2024-05-13 01:10:52 PM	Compressed file created: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/202403_aud_files.tar.gz
+2024-05-13 01:10:52 PM	Total files compressed: 0
+2024-05-13 01:10:52 PM	Zero (0) bytes compressed file deleted: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/202403_aud_files.tar.gz 
+2024-05-13 01:10:52 PM	=====================================================================
+2024-05-13 01:10:52 PM	Script running: Compress_db_aud_files.py
+2024-05-13 01:10:52 PM	Month parameter: It will be calculated internally
+2024-05-13 01:10:52 PM	===============Compress AUD files organized by DB ===================
+2024-05-13 01:10:52 PM	Compress files by month: 202403 (Calculated internally)
+2024-05-13 01:10:52 PM	Start compressing files from directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed
+2024-05-13 01:10:52 PM	Compressed file created: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed/202403_db_aud_files.tar.gz
+2024-05-13 01:10:52 PM	Total files compressed: 0
+2024-05-13 01:10:52 PM	Zero (0) bytes compressed file deleted: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed/202403_db_aud_files.tar.gz 
+2024-05-13 01:10:53 PM	Email sent

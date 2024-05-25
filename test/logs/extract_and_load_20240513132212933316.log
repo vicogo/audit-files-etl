@@ -1,0 +1,366 @@
+2024-05-13 01:22:12 PM	Script running: Extract_and_load.py
+2024-05-13 01:22:12 PM	extract_date parameter: 20240503
+2024-05-13 01:22:12 PM	compress_aud_month parameter: It will be calculated internally
+2024-05-13 01:22:12 PM	compress_db_aud_month parameter: It will be calculated internally
+2024-05-13 01:22:12 PM	======================Chesksum script files==========================
+2024-05-13 01:22:13 PM	1: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/config.properties - 78d00035939cce1a865566fc222e5568
+2024-05-13 01:22:13 PM	2: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Extract_and_load.py - bd5681293503bbb33c40129675c4956b
+2024-05-13 01:22:13 PM	3: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Extractor.py - 50406e9edbe7bec6c1ea43b73b243fb5
+2024-05-13 01:22:13 PM	4: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Loader_by_db.py - 191b579e47867d78e1c489ff01ad8d3a
+2024-05-13 01:22:13 PM	5: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Activity_report_generator.py - 8c751ad3789c584e166abafe73a3097f
+2024-05-13 01:22:13 PM	6: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Compress_aud_files.py - 94de29509ebb166af3290961a698311b
+2024-05-13 01:22:13 PM	7: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Compress_db_aud_files.py - e3e1a7417afd8508d738be73af3222bc
+2024-05-13 01:22:13 PM	8: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Util_string.py - 653d6089edf7affd6ef726bb889c343d
+2024-05-13 01:22:13 PM	9: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/Util_files.py - e1076b63cbf8ba719940e36a30c7e317
+2024-05-13 01:22:13 PM	=====================================================================
+2024-05-13 01:22:13 PM	Script running: Extractor.py
+2024-05-13 01:22:13 PM	Day parameter: 20240503
+2024-05-13 01:22:13 PM	=========================Start extraction============================
+2024-05-13 01:22:13 PM	Extraction day: 20240503 
+2024-05-13 01:22:13 PM	Start deleting files from directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503
+2024-05-13 01:22:13 PM	1: billdb-1-1-m-0 deleted (directory)
+2024-05-13 01:22:13 PM	2: billdb-1-1-m-1 deleted (directory)
+2024-05-13 01:22:13 PM	3: billsharedb-1-1-m-0 deleted (directory)
+2024-05-13 01:22:13 PM	4: billsharedb-1-1-m-1 deleted (directory)
+2024-05-13 01:22:13 PM	5: bmpdb-1-1-m-0 deleted (directory)
+2024-05-13 01:22:13 PM	6: bmpdb-1-1-m-1 deleted (directory)
+2024-05-13 01:22:13 PM	7: edrdb-1-1-m-0 deleted (directory)
+2024-05-13 01:22:13 PM	8: edrdb-1-1-m-1 deleted (directory)
+2024-05-13 01:22:13 PM	9: meddb-1-1-m-0 deleted (directory)
+2024-05-13 01:22:13 PM	10: meddb-1-1-m-1 deleted (directory)
+2024-05-13 01:22:13 PM	11: usrdb-1-1-m-0 deleted (directory)
+2024-05-13 01:22:13 PM	12: usrdb-1-1-m-1 deleted (directory)
+2024-05-13 01:22:13 PM	13: uvcdb-1-1-m-0 deleted (directory)
+2024-05-13 01:22:13 PM	14: uvcdb-1-1-m-1 deleted (directory)
+2024-05-13 01:22:13 PM	Total files/directories deleted: 14
+2024-05-13 01:22:13 PM	Start copying files from server 172.28.10.88, directory /home/mobarmy/auditlogs to local directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503
+2024-05-13 01:22:13 PM	Connected (version 2.0, client OpenSSH_7.4)
+2024-05-13 01:22:13 PM	Authentication (password) successful!
+2024-05-13 01:22:13 PM	Connected (version 2.0, client OpenSSH_7.4)
+2024-05-13 01:22:13 PM	Authentication (password) successful!
+2024-05-13 01:22:14 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/billdb-1-1-m-0 created successfully!
+2024-05-13 01:22:14 PM	[chan 0] Opened sftp connection (server version 3)
+2024-05-13 01:22:14 PM	[chan 0] sftp session closed.
+2024-05-13 01:22:14 PM	File quantity in source directory billdb-1-1-m-0: 0
+2024-05-13 01:22:14 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/billdb-1-1-m-1 created successfully!
+2024-05-13 01:22:14 PM	[chan 1] Opened sftp connection (server version 3)
+2024-05-13 01:22:14 PM	[chan 1] sftp session closed.
+2024-05-13 01:22:14 PM	File quantity in source directory billdb-1-1-m-1: 0
+2024-05-13 01:22:14 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/billsharedb-1-1-m-0 created successfully!
+2024-05-13 01:22:14 PM	[chan 2] Opened sftp connection (server version 3)
+2024-05-13 01:22:14 PM	[chan 2] sftp session closed.
+2024-05-13 01:22:14 PM	File quantity in source directory billsharedb-1-1-m-0: 1
+2024-05-13 01:22:16 PM	1: zengine_20240503192253314.aud
+2024-05-13 01:22:16 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/billsharedb-1-1-m-1 created successfully!
+2024-05-13 01:22:17 PM	[chan 3] Opened sftp connection (server version 3)
+2024-05-13 01:22:17 PM	[chan 3] sftp session closed.
+2024-05-13 01:22:17 PM	File quantity in source directory billsharedb-1-1-m-1: 2
+2024-05-13 01:22:21 PM	2: zengine_20240503134936581.aud
+2024-05-13 01:22:21 PM	3: zengine_20240503144038797.aud
+2024-05-13 01:22:21 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/bmpdb-1-1-m-0 created successfully!
+2024-05-13 01:22:21 PM	[chan 4] Opened sftp connection (server version 3)
+2024-05-13 01:22:21 PM	[chan 4] sftp session closed.
+2024-05-13 01:22:21 PM	File quantity in source directory bmpdb-1-1-m-0: 2
+2024-05-13 01:22:25 PM	4: zengine_20240503180053724.aud
+2024-05-13 01:22:25 PM	5: zengine_20240503234319298.aud
+2024-05-13 01:22:25 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/bmpdb-1-1-m-1 created successfully!
+2024-05-13 01:22:25 PM	[chan 5] Opened sftp connection (server version 3)
+2024-05-13 01:22:25 PM	[chan 5] sftp session closed.
+2024-05-13 01:22:25 PM	File quantity in source directory bmpdb-1-1-m-1: 6
+2024-05-13 01:22:38 PM	6: zengine_20240503034326461.aud
+2024-05-13 01:22:38 PM	7: zengine_20240503114942679.aud
+2024-05-13 01:22:38 PM	8: zengine_20240503133200009.aud
+2024-05-13 01:22:38 PM	9: zengine_20240503134553118.aud
+2024-05-13 01:22:38 PM	10: zengine_20240503190014102.aud
+2024-05-13 01:22:38 PM	11: zengine_20240503220826961.aud
+2024-05-13 01:22:38 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/edrdb-1-1-m-0 created successfully!
+2024-05-13 01:22:38 PM	[chan 6] Opened sftp connection (server version 3)
+2024-05-13 01:22:38 PM	[chan 6] sftp session closed.
+2024-05-13 01:22:38 PM	File quantity in source directory edrdb-1-1-m-0: 2
+2024-05-13 01:22:42 PM	12: zengine_20240503081253575.aud
+2024-05-13 01:22:43 PM	13: zengine_20240503195545373.aud
+2024-05-13 01:22:43 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/edrdb-1-1-m-1 created successfully!
+2024-05-13 01:22:43 PM	[chan 7] Opened sftp connection (server version 3)
+2024-05-13 01:22:43 PM	[chan 7] sftp session closed.
+2024-05-13 01:22:43 PM	File quantity in source directory edrdb-1-1-m-1: 1
+2024-05-13 01:22:45 PM	14: zengine_20240503024140254.aud
+2024-05-13 01:22:45 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/meddb-1-1-m-0 created successfully!
+2024-05-13 01:22:45 PM	[chan 8] Opened sftp connection (server version 3)
+2024-05-13 01:22:45 PM	[chan 8] sftp session closed.
+2024-05-13 01:22:45 PM	File quantity in source directory meddb-1-1-m-0: 1
+2024-05-13 01:22:47 PM	15: zengine_20240503072602661.aud
+2024-05-13 01:22:47 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/meddb-1-1-m-1 created successfully!
+2024-05-13 01:22:47 PM	[chan 9] Opened sftp connection (server version 3)
+2024-05-13 01:22:47 PM	[chan 9] sftp session closed.
+2024-05-13 01:22:47 PM	File quantity in source directory meddb-1-1-m-1: 1
+2024-05-13 01:22:49 PM	16: zengine_20240503103233294.aud
+2024-05-13 01:22:49 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/usrdb-1-1-m-0 created successfully!
+2024-05-13 01:22:49 PM	[chan 10] Opened sftp connection (server version 3)
+2024-05-13 01:22:49 PM	[chan 10] sftp session closed.
+2024-05-13 01:22:49 PM	File quantity in source directory usrdb-1-1-m-0: 3
+2024-05-13 01:22:56 PM	17: zengine_20240503015716064.aud
+2024-05-13 01:22:56 PM	18: zengine_20240503123924940.aud
+2024-05-13 01:22:56 PM	19: zengine_20240503195441399.aud
+2024-05-13 01:22:56 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/usrdb-1-1-m-1 created successfully!
+2024-05-13 01:22:56 PM	[chan 11] Opened sftp connection (server version 3)
+2024-05-13 01:22:56 PM	[chan 11] sftp session closed.
+2024-05-13 01:22:56 PM	File quantity in source directory usrdb-1-1-m-1: 1
+2024-05-13 01:22:58 PM	20: zengine_20240503075648166.aud
+2024-05-13 01:22:58 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/uvcdb-1-1-m-0 created successfully!
+2024-05-13 01:22:58 PM	[chan 12] Opened sftp connection (server version 3)
+2024-05-13 01:22:58 PM	[chan 12] sftp session closed.
+2024-05-13 01:22:58 PM	File quantity in source directory uvcdb-1-1-m-0: 1
+2024-05-13 01:23:00 PM	21: zengine_20240503013700010.aud
+2024-05-13 01:23:00 PM	The directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503/uvcdb-1-1-m-1 created successfully!
+2024-05-13 01:23:00 PM	[chan 13] Opened sftp connection (server version 3)
+2024-05-13 01:23:00 PM	[chan 13] sftp session closed.
+2024-05-13 01:23:00 PM	File quantity in source directory uvcdb-1-1-m-1: 2
+2024-05-13 01:23:05 PM	22: zengine_20240503023119824.aud
+2024-05-13 01:23:05 PM	23: zengine_20240503052254479.aud
+2024-05-13 01:23:05 PM	Total files copied: 23
+2024-05-13 01:23:05 PM	Start calculating checksum files from d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS
+2024-05-13 01:23:06 PM	1: 20240503\billsharedb-1-1-m-0\zengine_20240503192253314.aud - 9d725769d4e87ff94cf40748d375ef15
+2024-05-13 01:23:06 PM	2: 20240503\billsharedb-1-1-m-1\zengine_20240503134936581.aud - 874ca04d65efdc0d61c04866837424b2
+2024-05-13 01:23:06 PM	3: 20240503\billsharedb-1-1-m-1\zengine_20240503144038797.aud - ed7891ca79f0db66cbc0278cbee97d6a
+2024-05-13 01:23:06 PM	4: 20240503\bmpdb-1-1-m-0\zengine_20240503180053724.aud - 8e988c221fd09150b796902b8379baf7
+2024-05-13 01:23:06 PM	5: 20240503\bmpdb-1-1-m-0\zengine_20240503234319298.aud - e98cfea0c02620e9e0872ce0404101ca
+2024-05-13 01:23:06 PM	6: 20240503\bmpdb-1-1-m-1\zengine_20240503034326461.aud - ef894076ca76536168efe2bdbb460aac
+2024-05-13 01:23:06 PM	7: 20240503\bmpdb-1-1-m-1\zengine_20240503114942679.aud - 1762d7005a41e7abbc4beedd4770bfd0
+2024-05-13 01:23:06 PM	8: 20240503\bmpdb-1-1-m-1\zengine_20240503133200009.aud - affc24dc14cc8b07f2417931369edd1b
+2024-05-13 01:23:06 PM	9: 20240503\bmpdb-1-1-m-1\zengine_20240503134553118.aud - 000ac16e9a92e0e44b44866a79793338
+2024-05-13 01:23:06 PM	10: 20240503\bmpdb-1-1-m-1\zengine_20240503190014102.aud - b5320062d6c37069a1892b92240f2d7b
+2024-05-13 01:23:06 PM	11: 20240503\bmpdb-1-1-m-1\zengine_20240503220826961.aud - f86e780d646c5e8b891c33a1935cba26
+2024-05-13 01:23:06 PM	12: 20240503\edrdb-1-1-m-0\zengine_20240503081253575.aud - 782ad1e103591ffb9df0d2171f4a1dce
+2024-05-13 01:23:06 PM	13: 20240503\edrdb-1-1-m-0\zengine_20240503195545373.aud - dd3cdd13185b6cadabd61b304facbf3d
+2024-05-13 01:23:06 PM	14: 20240503\edrdb-1-1-m-1\zengine_20240503024140254.aud - a8be5fce679adef8bc7707a351edaaec
+2024-05-13 01:23:06 PM	15: 20240503\meddb-1-1-m-0\zengine_20240503072602661.aud - a4703a73bec7bd35ce1ee9c7446f0107
+2024-05-13 01:23:06 PM	16: 20240503\meddb-1-1-m-1\zengine_20240503103233294.aud - a126552b0ab3ae305cbc6cb2a6e99317
+2024-05-13 01:23:06 PM	17: 20240503\usrdb-1-1-m-0\zengine_20240503015716064.aud - d3eb7e9ffedbd949536010d8e9516d65
+2024-05-13 01:23:06 PM	18: 20240503\usrdb-1-1-m-0\zengine_20240503123924940.aud - b3fad0b41cf4aae4dbf20a666cd28dc5
+2024-05-13 01:23:06 PM	19: 20240503\usrdb-1-1-m-0\zengine_20240503195441399.aud - ca11757ac13a336e5e80ce2fd983113c
+2024-05-13 01:23:06 PM	20: 20240503\usrdb-1-1-m-1\zengine_20240503075648166.aud - 5617c0972357bea41e90459963717834
+2024-05-13 01:23:06 PM	21: 20240503\uvcdb-1-1-m-0\zengine_20240503013700010.aud - 0ab75fb59537cd232e59973509c8fd7c
+2024-05-13 01:23:06 PM	22: 20240503\uvcdb-1-1-m-1\zengine_20240503023119824.aud - b535b67c559a118341ec6cdb830dbed7
+2024-05-13 01:23:07 PM	23: 20240503\uvcdb-1-1-m-1\zengine_20240503052254479.aud - 5bc2fbb5f4168a1f3613ce247b1da196
+2024-05-13 01:23:07 PM	Total checksum files calculated: 23
+2024-05-13 01:23:07 PM	=====================================================================
+2024-05-13 01:23:07 PM	Script running: Loader_by_db.py
+2024-05-13 01:23:07 PM	Day parameter: 20240503
+2024-05-13 01:23:07 PM	==========================Organize by DB=============================
+2024-05-13 01:23:07 PM	Day: 20240503  
+2024-05-13 01:23:07 PM	Source directory: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/20240503
+2024-05-13 01:23:07 PM	Destiny directory: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed
+2024-05-13 01:23:07 PM	Start deleting files from directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed
+2024-05-13 01:23:07 PM	0: 202404-db-aud-files.tar.gz NOT deleted
+2024-05-13 01:23:07 PM	0: billdb NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\billdb0-zengine_20240502031134948.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\billdb0-zengine_20240502064559403.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\billdb1-zengine_20240502031134948.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\billdb1-zengine_20240502064559403.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240505203724795.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240506013420428.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240506072305017.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240506190010132.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240507072720573.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240507231521216.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508003631218.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508054947091.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508062956094.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508085910299.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508113415532.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508151254951.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508202046467.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508202500035.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240508225421598.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240509012120233.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billdb\zengine_20240509034934079.aud NOT deleted
+2024-05-13 01:23:07 PM	0: billsharedb NOT deleted
+2024-05-13 01:23:07 PM	1: billsharedb\zengine_20240503134936581.aud deleted (file)
+2024-05-13 01:23:07 PM	2: billsharedb\zengine_20240503144038797.aud deleted (file)
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240503192253314.aud deleted (file)
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240504012422459.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240504072528562.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240504102800034.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240504193350638.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240505013545724.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240505073321214.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240505125956464.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240505131233055.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240505153510200.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240505210120980.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240506060518707.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240506080234884.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240506133446474.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240507005046201.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240507011900012.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240507102900048.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240507202443837.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240508091700086.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240508170701211.aud NOT deleted
+2024-05-13 01:23:07 PM	3: billsharedb\zengine_20240508233153398.aud NOT deleted
+2024-05-13 01:23:07 PM	3: bmpdb NOT deleted
+2024-05-13 01:23:07 PM	4: bmpdb\zengine_20240503034326461.aud deleted (file)
+2024-05-13 01:23:07 PM	5: bmpdb\zengine_20240503114942679.aud deleted (file)
+2024-05-13 01:23:07 PM	6: bmpdb\zengine_20240503133200009.aud deleted (file)
+2024-05-13 01:23:08 PM	7: bmpdb\zengine_20240503134553118.aud deleted (file)
+2024-05-13 01:23:08 PM	8: bmpdb\zengine_20240503180053724.aud deleted (file)
+2024-05-13 01:23:08 PM	9: bmpdb\zengine_20240503190014102.aud deleted (file)
+2024-05-13 01:23:08 PM	10: bmpdb\zengine_20240503220826961.aud deleted (file)
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240503234319298.aud deleted (file)
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240504003800020.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240504014100058.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240504114211325.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240504120803320.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240504205800039.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240504212326143.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240505013111937.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240505122913020.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240505231100022.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240506093300039.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240506125302833.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240506195626358.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240506203342038.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240506203741075.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240506210120522.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240507003400632.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240507042746083.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240507060555265.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240507111012415.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240507122720974.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240507180300006.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240507235118900.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240508014257669.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240508122353764.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240508144418902.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240509001330635.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240509015600028.aud NOT deleted
+2024-05-13 01:23:08 PM	11: bmpdb\zengine_20240509044533070.aud NOT deleted
+2024-05-13 01:23:08 PM	11: edrdb NOT deleted
+2024-05-13 01:23:08 PM	12: edrdb\zengine_20240503024140254.aud deleted (file)
+2024-05-13 01:23:08 PM	13: edrdb\zengine_20240503081253575.aud deleted (file)
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240503195545373.aud deleted (file)
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240504031138573.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240504133022657.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240504164946555.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240504172003036.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240505010025639.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240505042034892.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240505085710130.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240505133343913.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240505203242959.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240506123407624.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240506183545289.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240507035341139.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240507073458586.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240507102500012.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240507113754305.aud NOT deleted
+2024-05-13 01:23:08 PM	14: edrdb\zengine_20240507124219115.aud NOT deleted
+2024-05-13 01:23:08 PM	14: meddb NOT deleted
+2024-05-13 01:23:08 PM	15: meddb\zengine_20240503072602661.aud deleted (file)
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240503103233294.aud deleted (file)
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240504004300025.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240504040253877.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240504044303628.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240504133200045.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240504153138027.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240504171924985.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240504174426303.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240505021400014.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240505193025970.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240506011031406.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240506101930933.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240507121529804.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240508043548134.aud NOT deleted
+2024-05-13 01:23:08 PM	16: meddb\zengine_20240509050045552.aud NOT deleted
+2024-05-13 01:23:08 PM	16: usrdb NOT deleted
+2024-05-13 01:23:08 PM	17: usrdb\zengine_20240503015716064.aud deleted (file)
+2024-05-13 01:23:08 PM	18: usrdb\zengine_20240503075648166.aud deleted (file)
+2024-05-13 01:23:08 PM	19: usrdb\zengine_20240503123924940.aud deleted (file)
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240503195441399.aud deleted (file)
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240504131720976.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240504225300048.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240505042312868.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240505095344549.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240505153311957.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240506080054167.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240506081526653.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240506132127132.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240506170900026.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240506210617996.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240507062403985.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240507101000007.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240507182645004.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240508041409186.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240508041843548.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240508064255096.aud NOT deleted
+2024-05-13 01:23:08 PM	20: usrdb\zengine_20240508161520564.aud NOT deleted
+2024-05-13 01:23:08 PM	20: uvcdb NOT deleted
+2024-05-13 01:23:08 PM	21: uvcdb\zengine_20240503013700010.aud deleted (file)
+2024-05-13 01:23:08 PM	22: uvcdb\zengine_20240503023119824.aud deleted (file)
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240503052254479.aud deleted (file)
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240504034417682.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240504060741962.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240504094236386.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240505055325402.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240505081646359.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240505185849456.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240505224929212.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240505234400039.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240506023412194.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240506043558653.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240506125300688.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240507003500038.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240507171034916.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240507180306051.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240507190559889.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240507224500108.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240508110722988.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240508121826312.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240508173322456.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240508194421006.aud NOT deleted
+2024-05-13 01:23:08 PM	23: uvcdb\zengine_20240509015535283.aud NOT deleted
+2024-05-13 01:23:08 PM	Total files/directories deleted: 23
+2024-05-13 01:23:08 PM	Start organizing AUD files by Database
+2024-05-13 01:23:08 PM	1: billsharedb/zengine_20240503192253314.aud
+2024-05-13 01:23:08 PM	2: billsharedb/zengine_20240503134936581.aud
+2024-05-13 01:23:08 PM	3: billsharedb/zengine_20240503144038797.aud
+2024-05-13 01:23:08 PM	4: bmpdb/zengine_20240503180053724.aud
+2024-05-13 01:23:08 PM	5: bmpdb/zengine_20240503234319298.aud
+2024-05-13 01:23:08 PM	6: bmpdb/zengine_20240503034326461.aud
+2024-05-13 01:23:08 PM	7: bmpdb/zengine_20240503114942679.aud
+2024-05-13 01:23:08 PM	8: bmpdb/zengine_20240503133200009.aud
+2024-05-13 01:23:08 PM	9: bmpdb/zengine_20240503134553118.aud
+2024-05-13 01:23:08 PM	10: bmpdb/zengine_20240503190014102.aud
+2024-05-13 01:23:08 PM	11: bmpdb/zengine_20240503220826961.aud
+2024-05-13 01:23:08 PM	12: edrdb/zengine_20240503081253575.aud
+2024-05-13 01:23:08 PM	13: edrdb/zengine_20240503195545373.aud
+2024-05-13 01:23:08 PM	14: edrdb/zengine_20240503024140254.aud
+2024-05-13 01:23:08 PM	15: meddb/zengine_20240503072602661.aud
+2024-05-13 01:23:08 PM	16: meddb/zengine_20240503103233294.aud
+2024-05-13 01:23:08 PM	17: usrdb/zengine_20240503015716064.aud
+2024-05-13 01:23:08 PM	18: usrdb/zengine_20240503123924940.aud
+2024-05-13 01:23:08 PM	19: usrdb/zengine_20240503195441399.aud
+2024-05-13 01:23:08 PM	20: usrdb/zengine_20240503075648166.aud
+2024-05-13 01:23:08 PM	21: uvcdb/zengine_20240503013700010.aud
+2024-05-13 01:23:08 PM	22: uvcdb/zengine_20240503023119824.aud
+2024-05-13 01:23:08 PM	23: uvcdb/zengine_20240503052254479.aud
+2024-05-13 01:23:08 PM	Total files organized: 23
+2024-05-13 01:23:08 PM	=====================================================================
+2024-05-13 01:23:08 PM	Script running: Compress_aud_files.py
+2024-05-13 01:23:08 PM	Month parameter: It will be calculated internally
+2024-05-13 01:23:08 PM	======================Compress AUD files ============================
+2024-05-13 01:23:08 PM	Compress files by month: 202403 (Calculated internally)
+2024-05-13 01:23:08 PM	Start compressing files from directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS
+2024-05-13 01:23:08 PM	Compressed file created: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/202403_aud_files.tar.gz
+2024-05-13 01:23:08 PM	Total files compressed: 0
+2024-05-13 01:23:08 PM	Zero (0) bytes compressed file deleted: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files/auditCBS/202403_aud_files.tar.gz 
+2024-05-13 01:23:08 PM	=====================================================================
+2024-05-13 01:23:08 PM	Script running: Compress_db_aud_files.py
+2024-05-13 01:23:08 PM	Month parameter: It will be calculated internally
+2024-05-13 01:23:08 PM	===============Compress AUD files organized by DB ===================
+2024-05-13 01:23:08 PM	Compress files by month: 202403 (Calculated internally)
+2024-05-13 01:23:08 PM	Start compressing files from directory d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed
+2024-05-13 01:23:08 PM	Compressed file created: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed/202403_db_aud_files.tar.gz
+2024-05-13 01:23:08 PM	Total files compressed: 0
+2024-05-13 01:23:08 PM	Zero (0) bytes compressed file deleted: d:/projects/67-992-CBS-UPGRADE/06Scripts/desarrollo/new-scripts/destiny-audit-files-by-db/auditCBS_Processed/202403_db_aud_files.tar.gz 
+2024-05-13 01:23:11 PM	Email sent
